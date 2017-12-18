@@ -1,5 +1,5 @@
 ### Installation
-npm install @remobile/react-native-call-state --save
+npm install react-native-call-state --save
 
 ### Installation (Android)
 - settings.gradle `
