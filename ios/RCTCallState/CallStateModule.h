@@ -6,16 +6,16 @@
 //  Copyright © 2017年 honggao.org. All rights reserved.
 //
 
-#ifndef CallStateModule_h
-#define CallStateModule_h
 
-#import "BaseModule.h"
 
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTBridge.h>
 #import <CoreTelephony/CTCallCenter.h>
 #import <CoreTelephony/CTCall.h>
-@interface CallStateModule : BaseModule {
+
+@interface CallStateModule : NSObject <RCTBridgeModule> {
+    
 }
 
 @end
-
-#endif /* CallStateModule_h */

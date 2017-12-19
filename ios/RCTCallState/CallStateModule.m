@@ -14,6 +14,9 @@
     CTCallCenter* _callCenter;
 }
 
+@synthesize bridge = _bridge;
+
+
 RCT_EXPORT_MODULE(CallState);
 
 RCT_EXPORT_METHOD(startListener) {
@@ -30,7 +33,7 @@ RCT_EXPORT_METHOD(startListener) {
                                        CTCallStateDisconnected : @"Disconnected",
                                        CTCallStateIncoming     : @"Incoming"
                                        };
-        [self sendEvent:@"callStateUpdated" body:[eventNameMap objectForKey: call.callState]];
+        [_bridge.eventDispatcher sendDeviceEventWithName:@"callStateUpdated" body:[eventNameMap objectForKey: call.callState]];
     };
 }
 
