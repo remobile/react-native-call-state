@@ -1,7 +1,7 @@
 {
-  "name": "react-native-call-state",
+  "name": "@remobile/react-native-call-state",
   "version": "1.0.2",
-  "description": "a phone call state detection for react-native,include ios and android ",
+  "description": "a phone call state detection for react-native,include ios and android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/remobile/react-native-call-state.git"
   },
+  "keywords": [
+    "phone",
+    "call",
+    "state",
+    "detection",
+    "react",
+    "native",
+    "ios",
+    "android"
+  ],
   "author": "honggao",
   "license": "MIT",
   "bugs": {
