@@ -1,6 +1,6 @@
 {
   "name": "@remobile/react-native-call-state",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a phone call state detection for react-native,include ios and android",
   "main": "index.js",
   "scripts": {
